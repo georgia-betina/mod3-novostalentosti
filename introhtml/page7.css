@@ -1,0 +1,37 @@
+nav {
+    background-color: azure;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:active {
+    color: coral;
+}
+
+a:hover {
+    color: blue;
+}
+
+.bluebg {
+    background-color: aquamarine;
+}
+
+.purplebg {
+    background-color: mediumpurple;
+}
