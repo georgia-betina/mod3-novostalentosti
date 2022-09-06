@@ -1,3 +1,9 @@
+body {
+    background-image: url('./img/posgradunivillecienciadedados.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 div {
     background-color: darkgray;
     /*width: 100px;

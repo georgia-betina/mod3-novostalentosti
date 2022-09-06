@@ -20,3 +20,8 @@ span, b, i, strong, em {
     font-weight: 700;
     background-color: moccasin;
 }
+
+img {
+    width: 50%;
+    opacity: 40%;
+}
