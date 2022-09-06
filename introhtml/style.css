@@ -1,0 +1,9 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+    border-bottom: 1px dotted chocolate;
+}
