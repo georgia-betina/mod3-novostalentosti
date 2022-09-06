@@ -15,3 +15,8 @@ h1 {
 p {
     font-size: 20px;
 }
+
+span, b, i, strong, em {
+    font-weight: 700;
+    background-color: moccasin;
+}

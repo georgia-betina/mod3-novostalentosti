@@ -1,0 +1,9 @@
+div {
+    background-color: darkgray;
+    /*width: 100px;
+    height: 100px;*/
+    border: 2px darkorchid solid;
+
+    position: absolute;
+    bottom: 100px;
+}
