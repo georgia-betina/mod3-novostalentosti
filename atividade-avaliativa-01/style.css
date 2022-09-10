@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-image: url('./img/low-angle-shot-of-a-facade-of-a-white-modern-building-under-a-blue-clear-sky.jpg');
+    background-repeat: no-repeat;
+    /*background-position: 50% 50%;*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 15em;
+}
+
+h1 {
+    /*padding: 2em 0em 0em 2em;*/
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: red;
+    font-size: 5em;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 2pt;
+}
+
+nav {
+    text-align: right;
+    background-color: #e9e8ed;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul, li {
+    font-family: 'Manrope', sans-serif;
+    list-style-type: none;
+    display: inline;
+    font-size: 1em;
+}
+
+.itemnav {
+    text-transform: uppercase;
+    margin: 0.5em;
+    font-weight: 500;
+    border-bottom: 2px solid crimson;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #e9e8ed;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Overpass', sans-serif;
+}
+
+.item-footer {
+    text-align: center;
+    color: slategrey;
+    padding:1em
+}
+
+.imge {
+    border-radius: 3%;
+}
