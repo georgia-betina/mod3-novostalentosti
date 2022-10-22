@@ -140,3 +140,40 @@ img {
 .descricao-cliente {
     font-size: small;
 }
+
+#volta-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#volta-inicio > a {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: large;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #e9e8ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+}
+
+.item-footer {
+    text-align: left;
+    color: slategrey;
+    padding:1em 2em;
+    text-transform: uppercase;
+}
+
+footer > div {
+    padding-bottom: 2.5em;
+}
