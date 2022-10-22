@@ -1,12 +1,9 @@
-/* FONTES */
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/* HEADER */
 body {
     margin: 0;
 }
@@ -110,6 +107,10 @@ ul, li {
     padding: 20px;
 }
 
+.atual {
+    border-bottom: black solid 2px;
+}
+
 a {
     color: #1d1d1d;
     text-decoration: none;
@@ -119,71 +120,95 @@ a {
     background-color: gainsboro;
 }
 
-#container-servicos-promocao {
+/* SERVIÇOS */
+
+#container-pagina-servicos {
+    display: flex;
+    flex-direction: row;
     background-color: #eee;
 }
 
-#container-promocao {
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    justify-content: center;
-    align-content: space-between;
+#container-pagina-servicos > div:nth-child(odd) {
+    width: 70%;
 }
 
-#container-promocao > div{
-    padding: 2%;
-    flex-basis: 250px;
+#container-pagina-servicos > div:nth-child(even){
+    background-color: white;
+    width: 30%;
+    padding: 3.5em;
+    font-family: 'Poppins', sans-serif;
 }
 
-#container-promocao > div > h4{
+#container-pagina-servicos > div > section > article {
+    margin: 2em 2em 1em 5em;
+    padding: 1em 2em 2em 2em;
+    background-color: white;
+}
+
+#container-pagina-servicos > div > section > article > p {
+    font-size: small;
+}
+
+#container-pagina-servicos > div > section > article > header > h4{
     margin: 0;
     text-align: left;
-    font-size: large;
 }
 
-.descricao-servico {
-    font-size: small;
-}
-
-.avaliacao {
+/*#container-pagina-servicos > div > section > article > ul {
+    padding: 0;
     display: flex;
-    justify-content: right;
+    flex-direction: row;
 }
 
-.checked {
-    color: orange;
-}
-
-.quantidade-comentarios-avaliacao {
-    font-size: x-small;
-    font-family: 'Poppins', sans-serif;
-    color: #1d1d1d;
-    display: block;
-    text-align: right;
-    margin-bottom: 10px;
-}
-
-.preco-antigo {
+#container-pagina-servicos > div > section > article > ul > div {
     font-size: small;
-    color: #1d1d1d;
-    text-decoration: line-through;
-    margin: 0;
+    border: #1d1d1d 1px solid;
+    width: 50%;
 }
 
-.preco-novo {
-    font-size: x-large;
-    margin: 0;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: -0.1em;
-    color: #1f3442;
+#container-pagina-servicos > div > section > article > ul > li {
+    font-size: small;
+}*/
+
+
+.li-header {
+    font-weight: bold;
 }
+
+.caracteristica-servico, .caracteristica-servico > li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
+/*.caracteristica-servico > li {
+    display: block;
+    list-style-type: disc;
+    font-size: ;
+}*/
+
+#volta-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+#volta-inicio > a {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: large;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+/* FOOTER */
 
 footer {
     background-color: #e9e8ed;
-    /*display: grid;
-    grid-template-columns: auto auto auto;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -199,9 +224,4 @@ footer {
 
 footer > div {
     padding-bottom: 2.5em;
-}
-
-.img-servico-promocao {
-    border-radius: 3%;
-    height: 12em;
 }

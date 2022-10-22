@@ -1,12 +1,9 @@
-/* FONTES */
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/* HEADER */
 body {
     margin: 0;
 }
@@ -53,6 +50,10 @@ body {
     background-color: rgba(39, 39, 39, 0.47);
     width: 60%;
     color: white;
+}
+
+#pagina-contato {
+    padding: 5em;
 }
 
 h1 {
@@ -110,6 +111,10 @@ ul, li {
     padding: 20px;
 }
 
+.atual {
+    border-bottom: black solid 2px;
+}
+
 a {
     color: #1d1d1d;
     text-decoration: none;
@@ -117,33 +122,6 @@ a {
 
 .itemnav:hover {
     background-color: gainsboro;
-}
-
-#container-servicos-promocao {
-    background-color: #eee;
-}
-
-#container-promocao {
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    justify-content: center;
-    align-content: space-between;
-}
-
-#container-promocao > div{
-    padding: 2%;
-    flex-basis: 250px;
-}
-
-#container-promocao > div > h4{
-    margin: 0;
-    text-align: left;
-    font-size: large;
-}
-
-.descricao-servico {
-    font-size: small;
 }
 
 .avaliacao {
@@ -155,53 +133,10 @@ a {
     color: orange;
 }
 
-.quantidade-comentarios-avaliacao {
-    font-size: x-small;
-    font-family: 'Poppins', sans-serif;
-    color: #1d1d1d;
-    display: block;
-    text-align: right;
-    margin-bottom: 10px;
+img {
+    width: 10%;
 }
 
-.preco-antigo {
+.descricao-cliente {
     font-size: small;
-    color: #1d1d1d;
-    text-decoration: line-through;
-    margin: 0;
-}
-
-.preco-novo {
-    font-size: x-large;
-    margin: 0;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: -0.1em;
-    color: #1f3442;
-}
-
-footer {
-    background-color: #e9e8ed;
-    /*display: grid;
-    grid-template-columns: auto auto auto;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Overpass', sans-serif;
-}
-
-.item-footer {
-    text-align: left;
-    color: slategrey;
-    padding:1em 2em;
-    text-transform: uppercase;
-}
-
-footer > div {
-    padding-bottom: 2.5em;
-}
-
-.img-servico-promocao {
-    border-radius: 3%;
-    height: 12em;
 }
