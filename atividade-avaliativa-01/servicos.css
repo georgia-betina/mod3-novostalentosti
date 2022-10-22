@@ -154,6 +154,23 @@ a {
     text-align: left;
 }
 
+#container-pagina-servicos > div > ul > li, #container-pagina-servicos > div > ul > ul > li{
+    display: block;
+}
+
+#container-pagina-servicos > div > ul > ul > li{
+    font-size: small;
+    text-indent: 50px;
+}
+
+#container-pagina-servicos > div > ul {
+    padding: 0px;
+}
+
+#container-pagina-servicos > div > ul > ul {
+    padding: 0px;
+}
+
 /*#container-pagina-servicos > div > section > article > ul {
     padding: 0;
     display: flex;
